@@ -1,0 +1,16 @@
+
+.navList a {
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+
+.navList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navList li {
+    display: inline-block;
+    margin-right: 40px;
+}

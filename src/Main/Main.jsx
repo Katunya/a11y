@@ -1,10 +1,15 @@
-import styles from '../styles/Home.module.css'
+import Header from "../Header/Header";
+import styles from "./Main.module.css";
+import Navigation from "../Navigation/Navigation";
 
 function Main () {
     return (
-        <div>
-            <a href="#main" className={styles.SkipLink}>{t('skipLink', lang)}</a>
+        <div className={styles.wrapper}>
+            <Header/>
+            <main id="main">
+                <Navigation />
 
+            </main>
         </div>
     )
 }
